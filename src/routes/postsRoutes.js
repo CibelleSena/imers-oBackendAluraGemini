@@ -42,7 +42,4 @@ const routes = (app) => {
 
   app.put("/upload/:id", atualizarNovoPost)
 }
-  
-
-
 export default routes; // Exporta a função routes para uso em outros arquivos.
